@@ -1,0 +1,704 @@
+body{
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    height:auto;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+.link{
+   text-decoration:none;
+   color: black;
+}
+.link1{
+    text-decoration:none;
+    color: black;
+ }
+.title{
+    position:relative;
+    font-size: 40px;
+    bottom: 20px;
+    left: 40%;
+    font-weight: 700;
+}
+span{
+    font-size: 22px;
+}
+.main-nav{
+    height: 120px;
+    border: 1px solid rgb(60, 58, 58);
+}
+.me-auto{
+    position: relative;
+    right: 120px;
+    top: 32px;
+}
+.home{
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(42, 39, 39);
+}
+
+.grid{
+margin-top: 40px;
+display: grid;
+grid-template-columns: 645px 200px;
+grid-template-rows: 200px 200px;
+gap: 10px;
+
+}
+.grid1{
+    margin-left: 50px;
+    grid-row: 1/-1;
+    z-index: 1;
+}
+.grid1 h3{
+    color: white;
+    z-index: 2;
+    position: relative;
+    bottom: 220px;
+    left: 150px;
+}
+.grid1 p{
+    color: rgb(230, 225, 225);
+    z-index: 2;
+    position: relative;
+    bottom: 220px;
+    left: 150px;
+}
+    .grid2{
+        z-index: 1;
+    }
+
+.grid2 h4{
+    color: rgb(230, 225, 225);
+    z-index: 2;
+    position: relative;
+    bottom: 120px;
+    left: 80px;
+
+}
+.grid2 p{
+    color: rgb(230, 225, 225);
+    z-index: 2;
+    position: relative;
+    bottom: 120px;
+    left: 80px;
+}
+.card{
+    width:300px;
+    height: 400px;
+}
+.card span{
+    font-size: 15px;
+    color: rgb(149, 146, 146);
+}
+#latest{
+    width: 150px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+    margin: 45px;
+}
+
+.building{
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    gap: 20px;
+}
+
+.card h4{
+    text-align: center;
+    margin-top: 5px;
+}
+.card p{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
+#latest1{
+    margin-left: 40px;
+    width: 210px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+}
+#late{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 170px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+}
+#lates{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 100px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+}
+#latestt{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 80px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+}
+
+.palace{
+    width: 640px;
+    height: 240px;
+    border-top: 2px solid gray;
+    display: inline-flex;
+  
+}
+.palace img{
+    margin:40px;
+}
+.palace1{
+margin: 30px;
+}
+.palace1 p{
+    font-size: 14px;
+}
+.palace1 span{
+    font-size: 14px;
+    color: rgb(149, 146, 146);
+}
+.separate{
+    width: 260px;
+    height: 620px ;
+    border: 2px solid lightgrey;
+    position: relative;
+    bottom: 963px;
+    left: 700px;
+    
+}
+.separate span{
+    font-weight: 600;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: 270px;
+    left:45px;
+}
+#load{
+    font-size: 18px;
+    position: relative;
+    bottom: 600px;
+    left: 40px;
+}
+#load img{
+    margin-right:10px;
+}
+#div{
+    
+    background-image: url(https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhbGFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    color: white;
+    width: 600px;
+    height: 350px;
+  position: relative;
+  left: 40px;
+  bottom: 550px;
+}
+#div h4{
+position: relative;
+top: 180px;
+left: 200px;
+}
+#div p{
+    position: relative;
+top: 180px;
+left: 210px;
+}
+#div p span{
+    font-size: 14px;
+    color: rgb(149, 146, 146);
+}
+#post{
+    width: 150px;
+    border-bottom: 3px solid rgb(235, 71, 71);
+    margin-bottom: 50px;
+}
+.border{
+    border-bottom: 2px solid gray;
+}
+.new{
+    position: relative;
+    bottom: 1300px;
+    right: 10px;
+    float: right;
+   
+    width: 300px;
+    height: 200px;
+}
+p span{
+    font-size: 14px;
+    color: rgb(149, 146, 146);
+}
+.new1{
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    display: inline-flex;
+}
+.new2 h5{
+margin: 10px;
+}
+.new2 p{
+    margin: 10px;
+}
+.new2 span{
+    font-size: 14px;
+     color: rgb(149, 146, 146)
+}
+#stories{ 
+    width: 190px;
+    border-bottom: 3px solid rgb(235, 71, 71);;
+    position: relative;
+    bottom: 500px;
+    left: 40px;
+}
+
+.easy{
+    padding: 20px;
+    display: inline-flex;
+   position: relative;
+   bottom: 600px;
+   left: 30px;
+   border: 2px solid gray;
+    
+}
+.easy1{
+    border-right: 1px solid gray;
+    width: 275px;
+    height: 300px;
+    margin-left: 20px;
+}
+.easy1 p{
+    font-size: 14px;
+    color: gray;
+}
+#last{
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+    bottom: 550px;
+}
+#last img{
+    margin-left:10px;
+}
+.build1{
+    margin-top: 50px;
+}
+.building2{
+    margin-left: 45px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    gap: 20px;
+}
+.newpage{
+    margin-top: 20px;
+    text-align: center;
+}
+.paragraph{
+margin: 20px;
+color: black;
+}
+.head{
+color: blueviolet;
+}
+.image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media  screen and (max-width:414px){ 
+  
+    body{
+        position: relative;
+        left: 50px;
+        width: 330px;
+        height:6500px;
+    
+    }
+    .title{
+        position:relative;
+        font-size: 40px;
+        top:8px;
+        left: 15%;
+        font-weight: 700;
+    }
+
+    .grid{
+    margin-top: 40px;
+    display: block;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+    gap: 5px;
+    
+    }
+    .grid1{
+        margin-left: 20px;
+        margin-right: 10px;
+        z-index: 1;
+        position: relative;
+        top: 30px;
+    }
+    .grid1 img{
+    width:280px;
+    height: 200px;
+    }
+    .grid2 img{
+       width:200px;
+       height:200px; 
+       margin-left: 40px;  
+       position: relative;
+       top: 30px;
+    
+    }
+    .grid3 img{
+        width:200px;
+       height:200px; 
+       margin-left: 40px;
+    }
+    .grid1 h3{
+        font-size: 18px;    
+        position: relative;
+        bottom: 120px;
+        left: 70px;
+    }
+    .grid1 p{
+        position: relative;
+        bottom: 120px;
+        left: 80px;
+    }
+        .grid2{
+            z-index: 1;
+        }
+    
+    .grid2 h4{
+        font-size: 17px;
+        position: relative;
+        bottom: 125px;
+        left: 65px;
+    
+    }
+    .grid2 p{
+        color: rgb(230, 225, 225);
+        z-index: 2;
+        position: relative;
+        bottom: 125px;
+        left: 65px;
+    }
+    .card{
+        width:300px;
+        height: 400px;
+    }
+    .card span{
+        font-size: 15px;
+        color: rgb(149, 146, 146);
+    }
+    #latest{
+        
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .building{
+        margin-left: 45px;
+        display: block;
+        grid-template-columns:150px;
+    }
+    .card{
+        position: relative;
+        bottom: 90px;
+        width: 250px;
+        height: 200px;
+        margin-top:20px;
+    }
+    .card img{
+        width: 230px;
+        height: 200px;
+    }
+    
+    .card h4{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .card p{
+        font-size: 14px;
+        text-align: center;
+        margin: 5px;
+    }
+    #latest1{
+        font-size: 30px;
+      position: relative;
+      bottom: 70px;
+    }
+    #late{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 170px;
+        border-bottom: 3px solid rgb(235, 71, 71);
+    }
+    #lates{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 100px;
+        border-bottom: 3px solid rgb(235, 71, 71);
+    }
+    #latestt{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 80px;
+        border-bottom: 3px solid rgb(235, 71, 71);
+    }
+    
+    .palace{
+        width: 300px;
+        height: 280px;
+        border-top: 2px solid gray;
+        display: block;
+      
+    }
+    .palace img{
+     width: 200px;
+     height: 100px;
+     position: relative;
+     bottom: 20px;
+
+    }
+    .palace1{
+        width:230px;
+        height:150px;
+        position: relative;
+        bottom: 80px;
+        left: 20px;
+    }
+    .palace1 h4{
+        font-size: 18px;
+    }
+    .palace1 p{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    .pr{
+        position: relative;
+        bottom: 35px;
+    }
+    .palace1 span{
+        
+        font-size: 12px;
+        color: rgb(149, 146, 146);
+    }
+    .separate{
+        width: 220px;
+        height: 310px ;
+        position: relative;
+        top:50px;
+        left: 40px;
+        
+    }
+    .separate span{
+        font-weight: 700;
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 150px;
+        left:45px;
+    }
+    #load{
+        font-size: 18px;
+        position: relative;
+        top: 65px;
+        left: 40px;
+    }
+    #load img{
+        position: relative;
+        top:400px;
+    }
+    #div{
+        
+        background-image: url(https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhbGFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+        color: white;
+        width: 250px;
+        height: 320px;
+      position: relative;
+      left:30px;
+      top:70px;
+    }
+    #div h4{
+    font-size: 18px;
+    position: relative;
+    top: 130px;
+    left: 30px;
+    }
+    #div p{
+    position: relative;
+    top: 150px;
+    left: 30px;
+    }
+    #div p span{
+        font-size: 14px;
+        color: rgb(149, 146, 146);
+    }
+    #post{
+      position: relative;
+      left:40px;   
+    bottom:20px;     
+    }
+    .border{
+        position: relative;
+        left: 20px;
+    }
+    .new{
+        
+        position: relative;
+        top: 200px;
+        left: 10px;
+        float:left;
+        width: 260px;
+        height: 200px;
+    }
+    .border h5{
+        font-size: 17px;
+        margin: 2px;
+    }
+    .border img{
+        position: relative;
+        width:250px;
+        height: 170px;
+    }
+    p span{
+        font-size: 14px;
+        color: rgb(149, 146, 146);
+    }
+    .new1{
+        border-bottom: 1px solid gray;
+        margin: 10px;
+        display:block;
+    }
+    .new1 img{
+        width: 125px;
+        height: 80px;
+        position: relative;
+        left: 30px;
+        top: 5px;
+    }
+    .new2 h5{
+        position: relative;
+        top: 5px;
+        left: 10px;
+  font-size: 16px;
+    }
+    .new2 p{
+    position: relative;
+    left: 10px;
+    }
+    .new2 span{
+    position: relative;
+    left: 10px;
+    }
+    #stories{ 
+        position: relative;
+        top: 850px;
+        left: 40px;
+    }
+    .easy{  
+        width: 290px; 
+        display: block;
+       position: relative;
+       top: 900px;
+       left: 20px;
+    }
+    .easy1{
+        border-right: 1px solid gray;
+        width: 250px;
+        height: 300px;
+        margin-left: 5px;
+    }
+    .easy1 h4{
+        font-size: 18px;
+    }
+    .easy1 p{
+        font-size: 14px;
+        color: gray;
+    }
+    #last{
+        font-size: 18px;
+        position: relative;
+        left: 40px;
+        bottom: 470px;
+    }
+    #last img{
+        margin-left:10px;
+    }
+    .build1{
+        margin-top: 50px;
+    }
+    .building2{
+        margin-left: 45px;
+        margin-top: 40px;
+        display:block;
+        grid-template-columns:300px 300px 300px;
+        gap: 20px;
+    }
+    .newpage{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .paragraph{
+    margin: 20px;
+    color: black;
+    }
+    .head{
+    color: blueviolet;
+    }
+    .image{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #latest{
+        font-size: 30px;
+     margin-top: 150px;
+    }
+    #latestt{
+        font-size: 30px;
+        margin-bottom: 120px;
+       }
+       #lates{
+        font-size: 30px;
+       }
+       #late{
+        font-size:30px;
+       }
+    .newpage{
+    font-size: 16px;
+    margin:10px;
+    }
+    .paragraph{
+    margin: 15px;
+    font-size: 15px;
+    }
+    .head{
+    color: blueviolet;
+    }
+    .image{
+        margin-top: 25px;
+        margin-right:20px;
+        width:250px;
+        height:150px;
+    }
+  
+    #home{
+        position: relative;
+        bottom: 40px;
+        left: 90px;
+        color: blue;
+    }
+    .main-nav{
+        border-bottom: 1px solid white;
+    }
+    #bar{
+        position: relative;
+        bottom: 130px;
+        left:230px;
+        color: blue;
+    }
+}
